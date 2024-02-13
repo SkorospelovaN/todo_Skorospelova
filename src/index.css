@@ -1,0 +1,142 @@
+a {
+  text-decoration: none;
+}
+
+body{
+  background: darkgray;
+  height: 100vh;
+  margin: 0px 450px;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+form{
+  width: 60%;
+  margin: 100px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inside{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+form>h1{
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+input{
+  width: 100%;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 22px;
+  font-family: Arial;
+  font-weight: 400;
+  color: black;
+}
+
+.inside>button{
+  width: 25%;
+  font-size: 22px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 30px;
+  border: none;
+  font-family: Arial;
+  font-weight: 400;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.inside>button:hover{
+  cursor: pointer;
+  background: none;
+  border: 2px solid black;
+  color: black;
+}
+
+.done{
+  text-decoration: line-through;
+  color: lightgray;
+  font-size: 13px;
+}
+
+ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: circle;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding: 15px;
+  width: 100%;
+  font-size: 22px;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li>div{
+  display: flex;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.done-button{
+  margin-left: 40px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background: darkgreen;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back{
+  margin-left: 40px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background: lightgray;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.delete{
+  margin-left: 40px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background: darkred;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
